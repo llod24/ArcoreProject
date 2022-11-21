@@ -1,0 +1,53 @@
+{
+  materials: [
+    {
+      name: 'Cristmas_pine',
+      parameters: [
+        {
+          baseColor: 'toon_pine',
+        },
+        {
+          baseColorTint: [
+            0.58823499999999995,
+            0.58823499999999995,
+            0.58823499999999995,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/tree/toon_pine.obj',
+    name: 'toon_pine',
+    recenter: 'root',
+    scale: 0.007535,
+  },
+  samplers: [
+    {
+      file: 'sampledata/tree\\toon_pine.png',
+      name: 'toon_pine',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'C:\\WK\\SELLOUT\\export\\toon_pine\\toon_pine.png',
+    },
+  ],
+  version: '0.54:2',
+}
