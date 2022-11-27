@@ -41,7 +41,9 @@ apply plugin: 'com.google.ar.sceneform.plugin'
 
 
 sceneform.asset(
-        'sampledata/tree/toon_pine.obj',
+        'sampledata/tre/tree.obj',
         'default',
-        'sampledata/tree/toon_pine.sfa',
-        'src/main/res/raw/toon_pine')
+        'sampledata/tre/tree.sfa',
+        'src/main/res/raw/tree')
+
+
